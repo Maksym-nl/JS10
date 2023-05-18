@@ -16,7 +16,7 @@ const r = fetch('https://restcountries.com/#endpoints-name/2')
 })
 .then(flag => {
   console.log(glag);
-});
+})
 .catch(error => {
   console.log(error);
 })
